@@ -121,7 +121,7 @@ def block_code(uuid, text, lang, inlinestyles=False, linenos=False):
                     '</pre>', PRE_WRAP_END, '\n'])
 
 
-class CDMMarkdownRenderer(mistune.Renderer):
+class CDMMarkdownRenderer(mistune.HTMLRenderer):
 
     """Codimension custom markdown renderer"""
 
